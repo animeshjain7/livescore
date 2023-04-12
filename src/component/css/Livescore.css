@@ -1,0 +1,158 @@
+.Livescore {
+    display: flex;
+    background-color: #1f447b;
+    flex-direction: column;
+  }
+  
+  .Livescore__header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Livescore__headerImage {
+    margin: 0px 20px;
+  }
+  
+  .Livescore__headerOptions {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .Livescore__headerOption {
+    display: flex;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .Livescore__headerOption:hover {
+    background-color: #071c4a94;
+  }
+  
+  .Livescore__headerOption > h4 {
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  .Livescore__headerSearch {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    margin-left: auto;
+  }
+  
+  .Livescore__headerSearch > .Livescore__headerSearchIcon {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: #265c8c94;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .Livescore__headerSearchIcon > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    margin-left: 5px;
+  }
+  
+  .Livescore__headerSearchIcon > input::placeholder {
+    color: white !important;
+  }
+  
+  .Livescore__matchStrip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4a4a4a;
+    color: white;
+  }
+  
+  .Livescore__matchStripLeft {
+    display: flex;
+  }
+  
+  .Livescore__matchStripLeftMatch {
+    background-color: black;
+    display: flex;
+    padding: 10px;
+  }
+  
+  .Livescore__matchStrip-LeftMatchOptions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Livescore__matchStrip-LeftMatchOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .Livescore__matchStrip-LeftMatchOption > p {
+    overflow: scroll;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    line-clamp: 1;
+    line-height: 1.5rem;
+    max-height: 1.5rem;
+  }
+  
+  .Livescore__matchStrip-LeftMatchOption > p::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .Livescore__matchStrip-LeftMatchOption:hover {
+    background-color: #3a3939;
+  }
+  
+  .Livescore__matchStrip-LeftMatchOption > small {
+    color: lightgray;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .Livescore__all {
+    display: flex;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .Livescore__all:hover {
+    background-color: #3a3939;
+    cursor: pointer;
+  }
+  
+  a:-webkit-any-link {
+    display: flex;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+  }
+  
+  a:-webkit-any-link:hover {
+    color: rgb(15, 15, 15);
+  }
+  
+  .Livescore__headerOption > .MuiSvgIcon-root {
+    color: white;
+  }
+  
+  .Livescore__all > .MuiSvgIcon-root {
+    color: white;
+  }
